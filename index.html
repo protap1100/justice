@@ -303,21 +303,77 @@
 
                 </div>
                 <div class="flex-1">
-                    <h1>Hello World</h1>
+                    <div class="grid gap-6 mb-6 grid-cols-1 lg:grid-cols-2 md:grid-cols-2 px-10">
+                        <div class=" col-span-2 lg:col-span-1">
+                            <label class="font-bold text-xl">First name</label>
+                            <input type="text" class="mt-2 border border-[#1313181A] text-sm rounded-lg  block w-full p-5 " placeholder="Enter Your Full Name" required>
+                        </div>
+                       <div class="col-span-2 lg:col-span-1">
+                            <label class="font-bold text-xl">Your Email</label>
+                            <input type="text" class="mt-2 border border-[#1313181A] text-sm rounded-lg  block w-full p-5 " placeholder="Enter Your Email" required> 
+                        </div>
+                       <div class=" col-span-2 lg:col-span-1">
+                            <label class="font-bold text-xl">Subject</label>
+                            <input type="text" class="mt-2 border border-[#1313181A] text-sm rounded-lg  block w-full p-5 " placeholder="Enter Your Subject" required> 
+                        </div> 
+                       <div class=" col-span-2 lg:col-span-1">
+                            <label class="font-bold text-xl">Phone</label>
+                            <input type="text" class="mt-2 border border-[#1313181A] text-sm rounded-lg  block w-full p-5 " placeholder="Enter Your Phone" required> 
+                        </div>
+                       <div class="col-span-2">
+                        <label class="font-bold text-xl">Your Message</label>
+                        <textarea class="mt-2 border border-[#1313181A] text-sm rounded-lg p-5 w-full lg:h-[250px]" placeholder="Your Message" ></textarea>
+                       </div>
+                    </div>
+                    <div class="px-10">
+                        <button class="btn text-white w-full  bg-light-brown border-none text-xl font-bold" >Send Message</button>
+                    </div>
                 </div>
             </div>
-
         </section>
         <!-- Contact Section Ended -->
-
-
     </main>
     <!-- Main Section Ended -->
 
-    <!-- Footer Section Started -->
-    <footer>
-
-    </footer>
-    <!-- Footer Section Ended -->
+            <!-- Footer Section Started -->
+            <footer class="mt-20 footer p-5 lg:px-52  lg:py-20 bg-[#131318] text-white">
+              <div class="grid grid-cols-4 gap-10">
+                  <div class="col-span-4 lg:col-span-1 space-y-3 lg:text-left lg:block flex flex-col items-center justify-center text-center ">
+                      <h1 class="text-3xl font-extrabold">  <img src="images/logo.png" alt=""></h1>
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  </div>
+                  <div class="flex gap-16 mx-auto lg:gap-36 lg:col-span-2 col-span-4 ">
+                      <div class="flex flex-col items-center lg:items-start lg:-ml-16 space-y-3">
+                      <a href="" class="font-bold text-xl">Useful Links</a>
+                      <a href="" class="text-sm font-normal">Home</a>
+                      <a href="" class="text-sm font-normal">About Us</a>
+                      <a href="" class="text-sm font-normal">Cases</a>
+                      <a href="" class="text-sm font-normal">Blog</a>
+                      <a href="" class="text-sm font-normal">Contact Us</a>
+                  </div>
+                  <div class="flex flex-col items-center lg:items-start lg:ml-6 space-y-3">
+                      <h1 class="font-bold text-xl">Contact Now</h1>
+                      <p>555 4th 5t NW, Washington <br>
+                        DC 20530, United States</p>
+                      <p>+88 01750 000 000 <br>
+                         +88 01750 000 000
+                      </p>
+                      <p>
+                        info@gmail.com <br>
+                        info@gmail.com
+                      </p>
+                  </div>
+                  </div>
+                  <div class="flex flex-col items-center lg:items-start mx-auto lg:mx-0 col-span-4 lg:col-span-1 space-y-3 ">
+                      <h1 class="font-bold text-xl">Subscribe</h1>
+                      <p>Subscribe for our latest & Articles. We Won't Give You Spam Mails</p>
+                      <div class="flex">
+                        <input type="text" class="mt-2 border border-[#1313181A] text-sm rounded-l-lg  block w-full p-5 " placeholder="Email Address" required>
+                        <a href="#" class="bg-light-brown mt-2 p-4 cursor-pointer rounded-r-lg"><img src="" alt=""><i class="fa-solid fa-location-arrow text-2xl"></i></a>
+                      </div>
+                  </div>
+              </div>
+            </footer>
+            <!-- Footer Section Ended -->
 </body>
 </html>
